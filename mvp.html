@@ -10,6 +10,64 @@
     </header>
     <main>
       <section class="container">
+
+        <style>
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+          }
+        
+
+         html {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+
+        .btn {
+          shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border: none;
+          padding: 10px 20px;
+        }
+
+        .btn hoover {
+          background-color: #0056b3;
+        }
+
+        .btn:activeZ {
+          background-color: #004494;
+        }
+
+        .btn:focus {
+          outline: none;
+        }
+
+
+        h1, h2, h3{
+          color: #333;
+        }
+
+
+        .chart-container {
+          width: 100%;
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
+        .section {
+          padding: 20px;
+
+        }
+
+        .pricing-table {
+          width: 100%;
+          border-collapse: collapse;
+
+        }
+
+        </style>
         <h2>Task List</h2>
         <div class="grid" id="taskList">
           <!-- Tasks will be dynamically inserted here -->
@@ -23,7 +81,11 @@
           <h2 class="task-title">MVP Task 2</h2>
 
           <p class="task-description">This is the description for MVP Task 2.</p> 
-
+          <div = "task-item">
+            <h2 class="task-title">MVP Task 3</h2>
+            <p class="task-description">This is the description for MVP Task 3.</p>
+            
+          </div>
 
           <body>
             <h2 class="task-title">MVP Task 3</h2>
